@@ -1,0 +1,46 @@
+.textbox{
+  display: flex;
+  border: 1px solid rgb(88, 87, 87);
+  width: 400px;
+  justify-content: space-between;
+  height: 35px;
+  align-items: center;
+  border-radius: 20px;
+  margin: 16px 0;
+  cursor: pointer;
+}
+.textbox>input{
+  width: 600px;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+.inline-vertical-line {
+  border-left: 1px solid rgb(87, 87, 87); 
+  height: 100%;
+  margin: 0 15px; 
+  display: inline-block;
+}
+.icon-div{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-div>p{
+  font-size: 15px;
+  margin-left: -10px;
+}
+.fa-search{
+  height: 100%;
+  padding: 0 16px;
+  background-color: #06942A;
+  color: white;
+  align-content: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

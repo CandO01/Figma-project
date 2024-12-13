@@ -1,0 +1,21 @@
+.image-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 237, 237);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.img-one{
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 20px;
+}
+.image-one>p{
+  padding: 20px 0;
+}
+.span-one{
+  color: green;
+}

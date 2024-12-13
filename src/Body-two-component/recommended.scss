@@ -1,0 +1,15 @@
+.recommended-div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 60px;
+}
+.jobs{
+  color: #3F403F;
+}
+.brand-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

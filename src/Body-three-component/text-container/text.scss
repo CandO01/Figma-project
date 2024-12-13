@@ -1,0 +1,41 @@
+.text-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-left: 10px;
+  margin-top: 28px;
+}
+.text-container>h2{
+  margin-bottom: 20px;
+}
+.getjob{
+  line-height: 27px;
+  color: #3F403F;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.check-box{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+}
+.check-box>p{
+  font-size: 18px;
+  color: #3F403F;
+}
+.icon{
+  padding: 15px;
+  background-color: rgb(209, 250, 209);
+  border-radius: 50%;
+}
+.checkmark{
+  color: #06942A;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}

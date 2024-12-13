@@ -1,0 +1,70 @@
+.brand-container{
+  flex-basis: 24%;
+  gap: 30px;
+  padding:20px 0;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 5px lightgray;
+  position: relative;
+}
+.first-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.first-part>p{
+  color: #3F403F;
+}
+.full-time{
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: rgb(220, 219, 219);
+  color: #9B9B9B;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.brand-img{
+  width: 40px;
+}
+.brand-stack-img, 
+.brand-access-img{
+  width: 130px;
+  height: 40px;
+}
+hr{
+  opacity: 0.2;
+}
+.second-part{
+  padding: 30px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-part>h5{
+  font-size: 18px;
+  color: #3F403F;
+}
+.location{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+}
+.apply, .apply1{
+  color: #06942A;
+  font-size: 17px;
+  font-weight: 600;
+}
+.apply1{
+  background-color:  #8df5a7;
+  padding: 5px 19px;
+  border-radius: 20px;
+  margin-right: -19px;
+}

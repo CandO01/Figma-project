@@ -1,0 +1,25 @@
+.how-it-works{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 50px 0;
+}
+.subimage-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  flex-basis: 30%;
+  padding: 50px 0;
+}
+.subimage2{
+  margin-right: -20px;
+}
+.image-three{
+}
+.text-container-one{
+  flex-basis: 40%;
+  margin-top: -190px;
+}

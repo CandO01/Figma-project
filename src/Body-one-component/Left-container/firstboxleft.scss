@@ -1,0 +1,16 @@
+.left-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  
+}
+.left-container>h3{
+  font-size: 28px;
+}
+.left-container>h3 span{
+  color: #06942A;
+}
+.left-container>p{
+  line-height: 30px;
+  width: 600px;
+}
